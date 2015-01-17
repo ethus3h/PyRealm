@@ -1,6 +1,6 @@
 from packet import Packet
 
-class GotoackPacket(Packet):
+class InvdropPacket(Packet):
     
     def __init__(self, slotObject=None):
         self.slotObject = slotObject

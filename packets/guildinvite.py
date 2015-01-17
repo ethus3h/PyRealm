@@ -1,6 +1,6 @@
 from packet import Packet
 
-class GotoackPacket(Packet):
+class GuildinvitePacket(Packet):
     
     def __init__(self, name=None):
         self.name = name

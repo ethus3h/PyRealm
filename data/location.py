@@ -14,7 +14,7 @@ class Location():
         self.x = stream.readFloat()
         self.y = stream.readFloat()
 
-    def distanceTo(self, loc2)
+    def distanceTo(self, loc2):
         dX = self.x-loc2.x
         dY = self.y-loc2.y
         return math.sqrt(dX**2+dY**2)
